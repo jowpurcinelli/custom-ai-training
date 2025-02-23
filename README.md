@@ -162,7 +162,7 @@ Configure the `data/config/databases.json` file (or `{CUSTOM_AI_TRAINING_ROOT}/d
 ## 📂 Project Structure
 
 ```
-db-talk-ai/
+custom-ai-training/
 │
 ├── README.md               # Project documentation
 ├── app.py                  # Main application entry point (runs the Streamlit interface)

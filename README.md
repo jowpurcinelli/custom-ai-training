@@ -1,12 +1,12 @@
 <p align="center">
-    <a href="https://github.com/paulocoutinhox/db-talk-ai" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/jowpurcinelli/custom-ai-training" target="_blank" rel="noopener noreferrer">
         <img width="180" src="extras/images/logo.png" alt="Logo">
     </a>
 </p>
 
-# DB TALK - AI 🧠
+# CUSTOM AI TRAINING 🧠
 
-**DB TALK - AI** is an interactive application built with **Python** and **Streamlit**, allowing users to query databases using **AI-generated SQL**. It supports **local AI models** or **cloud-based models** (such as **OpenAI GPT**) and provides results as **tables** and **charts**.
+**CUSTOM AI TRAINING** is an interactive application built with **Python** and **Streamlit**, Allow fine-tuning of AI models based on the user's query history and corrections. **AI-generated SQL**. It supports **local AI models** or **cloud-based models** (such as **OpenAI GPT**) and provides results as **tables** and **charts**.
 
 ## 🚀 Features
 
@@ -18,15 +18,10 @@
 - **Streamlit web interface** for easy interaction
 - **Secure database connection management** using a configuration file
 - **Modular database support** sql databases
-- Supports a custom root directory using the **`DB_TALK_AI_ROOT`** environment variable
 
 ## 📞 Installation
 
 ### **1. Clone the Repository**
-```sh
-git clone https://github.com/paulocoutinhox/db-talk-ai.git
-cd db-talk-ai
-```
 
 ### **2. Create a Virtual Environment**
 ```sh
@@ -103,25 +98,25 @@ If using DeepSeek, set your API key as an environment variable:
   ```
 
 ### **2. Set Custom Root Directory (Optional)**
-You can specify a custom root directory by setting the **`DB_TALK_AI_ROOT`** environment variable. If set, the app will look for the `data/` directory under this path instead of the default local `data/`.
+You can specify a custom root directory by setting the **`CUSTOM_AI_TRAINING_ROOT`** environment variable. If set, the app will look for the `data/` directory under this path instead of the default local `data/`.
 
 #### **Linux/macOS**
 ```sh
-export DB_TALK_AI_ROOT="/path/to/custom/root"
+export CUSTOM_AI_TRAINING_ROOT="/path/to/custom/root"
 ```
 
 #### **Windows (Command Prompt)**
 ```sh
-set DB_TALK_AI_ROOT="C:\path\to\custom\root"
+set CUSTOM_AI_TRAINING_ROOT="C:\path\to\custom\root"
 ```
 
 #### **Windows (PowerShell)**
 ```powershell
-$env:DB_TALK_AI_ROOT="C:\path\to\custom\root"
+$env:CUSTOM_AI_TRAINING_ROOT="C:\path\to\custom\root"
 ```
 
 ### **3. Configure Database Connections**
-Configure the `data/config/databases.json` file (or `{DB_TALK_AI_ROOT}/data/config/databases.json` if using the custom root):
+Configure the `data/config/databases.json` file (or `{CUSTOM_AI_TRAINING_ROOT}/data/config/databases.json` if using the custom root):
 
 ```json
 [
@@ -174,7 +169,7 @@ db-talk-ai/
 ├── requirements.txt        # List of required Python dependencies
 ├── requirements-gguf.txt   # List of required Python dependencies for GGUF models
 │
-├── data/                   # Data storage (or custom root if using DB_TALK_AI_ROOT)
+├── data/                   # Data storage (or custom root if using CUSTOMAITRAINING_ROOT)
 │   ├── config/             # Database configuration files
 │   │   └── databases.json  # Database connection configurations
 │   ├── models/             # Local AI model files
@@ -231,17 +226,11 @@ db-talk-ai/
 ## 📞 Contact
 
 For issues or contributions, open a **GitHub issue** or contact:
-💎 **paulocoutinhox@gmail.com**
-🔗 **[GitHub](https://github.com/paulocoutinho)**
-
-## 🖼️ Screenshots
-
-<img width="280" src="https://github.com/paulocoutinhox/db-talk-ai/blob/main/extras/images/screenshot.png?raw=true">
-
-<img width="280" src="https://github.com/paulocoutinhox/db-talk-ai/blob/main/extras/images/screenshot-2.png?raw=true">
+💎 **purcinellisoftwares@gmail.com**
+🔗 **[GitHub](https://github.com/jowpurcinelli)**
 
 ## 📜 License
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2025, Paulo Coutinho
+Copyright (c) 2025, J Pedro Purcinelli

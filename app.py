@@ -3,7 +3,7 @@ import streamlit as st
 from helpers import chart, db, model, prompt, response, schema
 
 # Sidebar - Application title
-st.sidebar.title("DB TALK - AI 🧠")
+st.sidebar.title("CUSTOM AI TRAINING 🧠")
 
 
 # Sidebar - Database Selection

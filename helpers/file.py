@@ -5,7 +5,7 @@ def get_root_folder():
     """Get the root folder path."""
 
     return os.getenv(
-        "DB_TALK_AI_ROOT",
+        "CUSTOM_AI_TRAINING_ROOT",
         os.path.dirname(
             os.path.abspath(os.path.join(__file__, "..")),
         ),

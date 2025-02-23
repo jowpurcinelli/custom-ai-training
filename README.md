@@ -1,9 +1,3 @@
-<p align="center">
-    <a href="https://github.com/jowpurcinelli/custom-ai-training" target="_blank" rel="noopener noreferrer">
-        <img width="180" src="extras/images/logo.png" alt="Logo">
-    </a>
-</p>
-
 # CUSTOM AI TRAINING 🧠
 
 **CUSTOM AI TRAINING** is an interactive application built with **Python** and **Streamlit**, Allow fine-tuning of AI models based on the user's query history and corrections. **AI-generated SQL**. It supports **local AI models** or **cloud-based models** (such as **OpenAI GPT**) and provides results as **tables** and **charts**.
